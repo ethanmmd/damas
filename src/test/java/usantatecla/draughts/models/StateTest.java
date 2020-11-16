@@ -25,6 +25,7 @@ public class StateTest {
 
     @Test
     public void testStateWhenResetIsCalled() {
+        state.reset();
         assertStateValue(INITIAL);
     }
 
